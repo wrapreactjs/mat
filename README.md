@@ -22,13 +22,13 @@
 MAT - Responsive Admin Theme
 ============================
 
-Thank you for purchasing MAT admin theme. If you have any questions about the template, please feel free to contact me via email: [chanaka3d@gmail.com](mailto:chanaka3d@gmail.com). Thanks very much!
+Thank you for purchasing MAT admin theme. If you have any questions about the template, please feel free to contact me via email: [flexdamon@gmail.com](mailto:flexdamon@gmail.com). Thanks very much!
 
 ![](images/baner.png)
 
 **Documentation created:** 01/01/2018  
 **Latest update:** 01/01/2018  
-**By:** Chanaka3d  
+**By:** Damon Tucker  
 **Theme Version:** 1.0.0  
 **For react bootstrap documentation:** [http://reactstrap.github.io/components/alerts/](http://reactstrap.github.io/components/alerts/)  
 **For react material design documentation:** [https://material-ui-1dab0.firebaseapp.com/](https://material-ui-1dab0.firebaseapp.com/)  
@@ -38,7 +38,7 @@ Thank you for purchasing MAT admin theme. If you have any questions about the te
 About the template
 ------------------
 
-MAT has a clean and minimalistic design which helps you create an awesome and powerful project. It is perfectly designed and precisely prepared. Template was built based on the latest standards and recommendations. MAT theme is powered by Twitter Bootstrap v4 and React Material Design. Please note that this documentation is dedicated to the main element of the template. With each version, I will try to develop it. But if you have any questions going beyond what is described here don't hesitate to write to me. [chanaka3d@gmail.com](mailto:chanaka3d@gmail.com)
+MAT has a clean and minimalistic design which helps you create an awesome and powerful project. It is perfectly designed and precisely prepared. Template was built based on the latest standards and recommendations. MAT theme is powered by Twitter Bootstrap v4 and React Material Design. Please note that this documentation is dedicated to the main element of the template. With each version, I will try to develop it. But if you have any questions going beyond what is described here don't hesitate to write to me. [flexdamon@gmail.com](mailto:flexdamon@gmail.com)
 
 Installing
 ----------
@@ -257,7 +257,7 @@ With this seed project you can use both React Material Design components and Boo
 Contact
 -------
 
-Contact me:[chanaka3d@gmail.com](mailto:chanaka3d@gmail.com)
+Contact me:[flexdamon@gmail.com](mailto:flexdamon@gmail.com)
 
 @Mat Admin Theme
 
