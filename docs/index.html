@@ -1,0 +1,404 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="images/favicon.png">
+
+    <title>MAT - React Material Design Admin Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap.min.css" rel="stylesheet">
+
+    <!--Codemirror imports-->
+    <link rel="stylesheet" href="vendor/codemirror.css">
+    <script src="vendor/codemirror.js"></script>
+    <script src="vendor/matchbrackets.js"></script>
+    <script src="vendor/javascript.js"></script>
+    <script src="vendor/xml.js"></script>
+    <script src="vendor/jsx.js"></script>
+    <!-- Custom styles for this template -->
+    <style>
+        /* Show it is fixed to the top */
+        body {
+            min-height: 75rem;
+            padding-top: 0;
+        }
+        h3{
+            margin:30px 0;
+        }
+        .navbar-brand span{
+            text-indent: 20px;
+        }
+        pre{
+            background: #efefef;
+            padding: 20px;
+        }
+        .footer{
+            padding:20px 0;
+            color: #626262;
+        }
+    </style>
+</head>
+
+<body>
+<nav class="navbar navbar-inverse bg-inverse nav-bar-fixed">
+    <div class="container">
+        <div class="d-flex p-2 justify-content-between">
+            <a class="navbar-brand" href="#"><img src="images/logo.png" width="40"> <span>MAT - React Material Design Admin Template</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span> Table of Content
+            </button>
+        </div>
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-inverse p-4">
+                <h4 class="text-white">Table of Content</h4>
+                <ul>
+                    <li><a href="#about">About the template</a></li>
+                    <li><a href="#installing">Installing</a></li>
+                    <li><a href="#available">Available Scripts</a></li>
+                    <li><a href="#folder">Folder Structure</a></li>
+                    <li><a href="#themes">Themes</a></li>
+                    <li><a href="#dashboard">Dashboard</a></li>
+                    <li><a href="#custom">Custom theme for victory charts</a></li>
+                    <li><a href="#forms">Forms</a></li>
+                    <li><a href="#auth">Authenticating</a></li>
+                    <li><a href="#seed">Seed Projects</a></li>
+                    <li><a href="#react">Mat-seed-react</a></li>
+                    <li><a href="#bootstrap">Mat-seed-react-bootstrap</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <div class="jumbotron" id="jumboBanner">
+        <h1>MAT - Responsive Admin Theme </h1>
+        <div class="d-flex p-2">
+            <p class="lead">
+                Thank you for purchasing MAT admin theme. If you have any questions about the template, please feel free to
+                contact me via email: <a href="mailto:chanaka3d@gmail.com">chanaka3d@gmail.com</a>.
+                Thanks very much!
+            </p>
+            <img src="images/baner.png" width="400" height="200" />
+        </div>
+
+        <small>
+            <strong>Documentation created:</strong> 01/01/2018<br>
+            <strong>Latest update:</strong> 01/01/2018<br>
+            <strong>By:</strong> Chanaka3d<br>
+            <strong>Theme Version:</strong> 1.0.0<br>
+        </small>
+
+        <small>
+            <strong>For react bootstrap documentation: </strong> <a href="http://reactstrap.github.io/components/alerts/">
+            http://reactstrap.github.io/components/alerts/</a><br />
+            <strong>For react material design documentation: </strong> <a href="https://material-ui-1dab0.firebaseapp.com/">
+            https://material-ui-1dab0.firebaseapp.com/</a><br />
+            <strong>For create-react-app documentation: </strong> <a href="https://github.com/facebookincubator/create-react-app">
+            https://github.com/facebookincubator/create-react-app</a><br />
+            <strong>For victory charting documentation: </strong> <a href="https://github.com/FormidableLabs/victory-chart">
+            https://github.com/FormidableLabs/victory-chart</a><br />
+
+
+        </small>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <h2 id="about">About the template</h2>
+            <p>
+                MAT has a clean and minimalistic design which helps you create an awesome and powerful project.
+                It is perfectly designed and precisely prepared. Template was built based on the latest standards and
+                recommendations. MAT theme is powered by Twitter Bootstrap v4 and React Material Design.
+                Please note that this documentation is dedicated to the main element of the template. With each version,
+                I will try to develop it. But if you have any questions going beyond what is described here don't hesitate
+                to write to me. <a href="mailto:chanaka3d@gmail.com">chanaka3d@gmail.com</a>
+            </p>
+            <h2 id="installing">Installing</h2>
+            <p><strong>You’ll need to have Node >= 6 on your machine.</strong> You can use
+                <a href="https://github.com/creationix/nvm#installation" target="_blank">nvm</a> (macOS/Linux) or
+                <a href="https://github.com/coreybutler/nvm-windows#node-version-manager-nvm-for-windows" target="_blank">nvm-windows</a>
+                to easily switch Node versions between different projects.
+            </p>
+            <p>Project has the following folder structure at the root level</p>
+            ├── <strong>admin-sample</strong> <br/>
+            ├── <strong>docs</strong> <br />
+            ├── <strong>mat-seed-react</strong> <br />
+            └── <strong>mat-seed-react-bootstrap</strong><br />
+
+            <p>
+                There are three react projects ( admin-sample, mat-seed-react, and mat-seed-react-bootstrap). These projects
+                are independent from each other. You need to run the following command for each project.
+            </p>
+            <h3><code>
+                npm install
+            </code></h3>
+            <p> The above command will install all the required dependencies in the node_modules folder. To run the application run the following command.</p>
+            <h3><code>
+                npm start
+            </code></h3>
+            <p>With the above command it will open <a target="_blank" href="http://localhost:3000">http://localhost:3000</a> in the browser.</p>
+            <p>This tool doesn’t assume a Node backend. The Node installation is only required for Create React App itself.</p>
+            <p>You don’t need to install or configure tools like Webpack or Babel.</p>
+            <h2 id="available">Available Scripts</h2>
+            <p>The following scripts are available for all three react projects. You have to run these commands within each folder.</p>
+            <h3><code>npm start</code></h3>
+            <p>Runs the app in the development mode.<br />
+                Open <a target="_blank" href="http://localhost:3000">http://localhost:3000</a> to view it in the browser.
+            </p>
+            <p>
+                The page will automatically reload if you make changes to the code.
+                You will see the build errors and lint warnings in the console.
+            </p>
+            <img src="images/console1.png" />
+            <h3><code>npm test</code></h3>
+            <p>Launches the test runner in the interactive watch mode.
+                See the section about create-react-app documentation
+                <a target="_blank" href="https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#running-tests">running tests</a>
+                for more information.</p>
+            <h3><code>npm run build</code></h3>
+            <p>Builds the app for production to the <code>build</code> folder.
+                It correctly bundles React in production mode and optimizes the build for the best performance.</p>
+            <p>The build is minified and the filenames include the hashes.
+                Your app is ready to be deployed!</p>
+            <p>
+                See the section about
+                <a target="_blank" href="https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#deployment">
+                    deployment
+                </a>  for more information.
+            </p>
+            <h2>About admin-sample</h2>
+            <p>This project gives you a sample app with landing page, dashboards, authentication/login, etc..</p>
+            <h3 id="folder">Folder Structure</h3>
+            <code>
+                <a >./</a><br>
+                ├── <a>config</a><br>
+                │   ├── <a>env.js</a><br>
+                │   ├── <a >jest</a><br>
+                │   │   ├── <a >cssTransform.js</a><br>
+                │   │   └── <a >fileTransform.js</a><br>
+                │   ├── <a >paths.js</a><br>
+                │   ├── <a >polyfills.js</a><br>
+                │   ├── <a >webpack.config.dev.js</a><br>
+                │   ├── <a >webpack.config.prod.js</a><br>
+                │   ├── <a >webpack.config.prod.txt</a><br>
+                │   └── <a >webpackDevServer.config.js</a><br>
+                ├── <a >package.json</a><br>
+                ├── <a >package-lock.json</a><br>
+                ├── <a >Preview.png</a><br>
+                ├── <a >public</a><br>
+                │   ├── <a >css</a><br>
+                │   │   └── <a >main.css</a><br>
+                │   ├── <a >favicon.png</a><br>
+                │   ├── <a >favicon.svg</a><br>
+                │   ├── <a >images</a><br>
+                │   │   ├── <a >........</a><br>
+                │   ├── <a >index.html</a><br>
+                │   ├── <a >manifest.json</a><br>
+                │   └── <a >world-50m.json</a><br>
+                ├── <a >README.md</a><br>
+                ├── <a >result.html</a><br>
+                ├── <a >scripts</a><br>
+                │   ├── <a >build.js</a><br>
+                │   ├── <a >start.js</a><br>
+                │   └── <a >test.js</a><br>
+                └── <a >src</a><br>
+                &nbsp;&nbsp;&nbsp; ├── <a >App.css</a><br>
+                &nbsp;&nbsp;&nbsp; ├── <a >App.js</a><br>
+                &nbsp;&nbsp;&nbsp; ├── <a >App.test.js</a><br>
+                &nbsp;&nbsp;&nbsp; ├── <a >errors</a><br>
+                &nbsp;&nbsp;&nbsp; │   └── <a >Page400.js</a><br>
+                &nbsp;&nbsp;&nbsp; ├── <a >index.css</a><br>
+                &nbsp;&nbsp;&nbsp; ├── <a >index.js</a><br>
+                &nbsp;&nbsp;&nbsp; ├── <a >layouts</a><br>
+                &nbsp;&nbsp;&nbsp; │   └── <a >Main</a><br>
+                &nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; ├── <a >index.js</a><br>
+                &nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; └── <a >LeftMenu.js</a><br>
+                &nbsp;&nbsp;&nbsp; ├── <a >logo.svg</a><br>
+                &nbsp;&nbsp;&nbsp; ├── <a >MatComponents</a><br>
+                &nbsp;&nbsp;&nbsp; │   ├── <a >AutoComplete.js</a><br>
+                &nbsp;&nbsp;&nbsp; │   ├── <a >Labels.js</a><br>
+                &nbsp;&nbsp;&nbsp; │   ├── <a >ListNumber.js</a><br>
+                &nbsp;&nbsp;&nbsp; │   └── <a >MultipleSelect.js</a><br>
+                &nbsp;&nbsp;&nbsp; ├── <a >pages</a><br>
+                &nbsp;&nbsp;&nbsp; │   ├── <a >Article.js</a><br>
+                &nbsp;&nbsp;&nbsp; │   ├── <a >Contacts</a><br>
+                &nbsp;&nbsp;&nbsp; │   │   ├── <a >ContactData.js</a><br>
+                &nbsp;&nbsp;&nbsp; │   │   ├── <a >Contact.js</a><br>
+                &nbsp;&nbsp;&nbsp; │   │   ├── <a >ContactList.js</a><br>
+                &nbsp;&nbsp;&nbsp; │   │   └── <a >index.js</a><br>
+                &nbsp;&nbsp;&nbsp; │   ├── <a >Dashboardv1</a><br>
+                &nbsp;&nbsp;&nbsp; │   │   ├── <a >AreaAnimation1.js</a><br>
+                &nbsp;&nbsp;&nbsp; │   │   ├── <a >AreaAnimation2.js</a><br>
+                &nbsp;&nbsp;&nbsp; │   │   ├── <a >CustomBarChart.js</a><br>
+                &nbsp;&nbsp;&nbsp; │   │   ├── <a >CustomChart.js</a><br>
+                &nbsp;&nbsp;&nbsp; │   │   ├── <a >index.js</a><br>
+                &nbsp;&nbsp;&nbsp; │   │   ├── <a >MailFeed.js</a><br>
+                &nbsp;&nbsp;&nbsp; │   │   ├── <a >Map.js</a><br>
+                &nbsp;&nbsp;&nbsp; │   │   ├── <a >MatTheme.js</a><br>
+                &nbsp;&nbsp;&nbsp; │   │   └── <a >PieChart1.js</a><br>
+                &nbsp;&nbsp;&nbsp; │   ├── <a >Error404.js</a><br>
+                &nbsp;&nbsp;&nbsp; │   ├── <a >Error500.js</a><br>
+                &nbsp;&nbsp;&nbsp; │   ├── <a >ForgotPassword.js</a><br>
+                &nbsp;&nbsp;&nbsp; │   ├── <a >Landing</a><br>
+                &nbsp;&nbsp;&nbsp; │   │   └── <a >Landing.js</a><br>
+                &nbsp;&nbsp;&nbsp; │   ├── <a >Login.jsx</a><br>
+                &nbsp;&nbsp;&nbsp; │   ├── <a >Projects</a><br>
+                &nbsp;&nbsp;&nbsp; │   │   ├── <a >HealthChart.js</a><br>
+                &nbsp;&nbsp;&nbsp; │   │   ├── <a >index.js</a><br>
+                &nbsp;&nbsp;&nbsp; │   │   ├── <a >ProjectData.js</a><br>
+                &nbsp;&nbsp;&nbsp; │   │   ├── <a >Project.js</a><br>
+                &nbsp;&nbsp;&nbsp; │   │   └── <a >ProjectList.js</a><br>
+                &nbsp;&nbsp;&nbsp; │   ├── <a >Register.js</a><br>
+                &nbsp;&nbsp;&nbsp; │   ├── <a >Tables</a><br>
+                &nbsp;&nbsp;&nbsp; │   │   ├── <a >index.js</a><br>
+                &nbsp;&nbsp;&nbsp; │   │   ├── <a >react-data-grid-custom.css</a><br>
+                &nbsp;&nbsp;&nbsp; │   │   ├── <a >TableBasic.js</a><br>
+                &nbsp;&nbsp;&nbsp; │   │   ├── <a >TableData.js</a><br>
+                &nbsp;&nbsp;&nbsp; │   │   └── <a >TableGrid.js</a><br>
+                &nbsp;&nbsp;&nbsp; │   └── <a >Ui</a><br>
+                &nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; ├── <a >Buttons.js</a><br>
+                &nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; ├── <a >Dialogs.js</a><br>
+                &nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; ├── <a >DraggableTree</a><br>
+                &nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; │   └── <a >index.js</a><br>
+                &nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; ├── <a >FormAdvanced.js</a><br>
+                &nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; ├── <a >FormBasic.js</a><br>
+                &nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; ├── <a >FormWizard.js</a><br>
+                &nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; ├── <a >index.js</a><br>
+                &nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; └── <a >Sortable</a><br>
+                &nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; ├── <a >Card.js</a><br>
+                &nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; ├── <a >Container.js</a><br>
+                &nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; ├── <a >index.js</a><br>
+                &nbsp;&nbsp;&nbsp; │   &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; └── <a >ItemTypes.js</a><br>
+                &nbsp;&nbsp;&nbsp; ├── <a >themes</a><br>
+                &nbsp;&nbsp;&nbsp; │   └── <a >MaterialDesignCustomTheme.js</a><br>
+                &nbsp;&nbsp;&nbsp; └── <a >utils</a><br>
+                &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; └── <a >Message.js</a><br>
+                <br><br>
+            </code>
+
+            <h3 id="themes">Themes</h3>
+            <p>
+                Three default themes shipped with Mat admin theme (Dark, Light, Custom). The Dark and Light themes are
+                the default themes available with React Material Design. The additional custom theme is available at
+                <code>src/themes/MaterialDesignCustomTheme.js.</code>
+                You can switch them from the top light bulb icon.
+            The state of the theme is persisted to the local storage.
+            </p>
+            <textarea id="code1">
+{
+    palette: {
+        text: {
+            primary: 'rgba(178, 223, 219, 1)',
+            secondary: 'rgba(255, 255, 255, 0.7)',
+            disabled: 'rgba(255, 255, 255, 0.5)',
+            hint: 'rgba(255, 255, 255, 0.5)',
+            icon: 'rgba(255, 255, 255, 0.5)',
+            divider: 'rgba(255, 255, 255, 0.12)',
+            lightDivider: 'rgba(255, 255, 255, 0.075)',
+        },
+        input: {
+            bottomLine: 'rgba(255, 255, 255, 0.7)',
+            helperText: 'rgba(255, 255, 255, 0.7)',
+            labelText: 'rgba(255, 255, 255, 0.7)',
+            inputText: 'rgba(255, 255, 255, 1)',
+            disabled: 'rgba(255, 255, 255, 0.5)',
+        },
+        action: {
+            active: 'rgba(255, 255, 255, 1)',
+            disabled: 'rgba(255, 255, 255, 0.3)',
+        },
+        background: {
+            default: 'rgba(96, 125, 139, 1)',
+            paper: 'rgba(69, 90, 100, 1)',
+            appBar: 'rgba(38, 50, 56, 1)',
+            contentFrame: grey[900],
+            active: 'rgba(67, 160, 71, 1)',
+        }
+    }
+}
+            </textarea>
+            <h3 id="dashboard">Dashboard</h3>
+            <p>Dashboard is powered by Victory charing library. Victory is a pure charting library. </p>
+            <a href="https://github.com/FormidableLabs/victory-chart" target="_blank">https://github.com/FormidableLabs/victory-chart</a>
+            <h3 id="custom">Custom theme for victory charts</h3>
+            <p>I have created a custom theme for the victory charts. This can be located at src/pages/Dashboardv1/MatTheme.js.
+                This custom theme is used by the dashboard charts. You can tweak the colors to achieve what you need in
+                your dashboard charts.
+            </p>
+            <p>
+                The map component in the dashboard is powered by react-simple-maps. This library is a pure react library.
+            </p>
+            <a href="https://github.com/zcreativelabs/react-simple-maps" target="_blank">
+                https://github.com/zcreativelabs/react-simple-maps</a>
+            <h3 id="forms">Forms</h3>
+            <p>The forms in Mat theme is powered by the React Material Design Form components. The samples in the
+                template proved with a start point to design forms for your use cases.
+            </p>
+            <p>
+                Client side validation example is developed in the Login page.
+                There is no library use to do the validation. It’s simply using state variables and setState.
+            </p>
+            <h2 id="auth">Authenticating</h2>
+            <p>The sample app is built with authentication flow login page authenticated routes etc.
+                All secure routes are wrapped in a higher order react component.
+            </p>
+            <textarea id="code2">
+ if (Auth.getUser()) {
+    return (
+        <Main setTheme={this.props.setTheme}>
+            <Switch>
+                <Route exact path={"/"} component={Dashboardv1}/>
+                <Route exact path={"/home"} component={Dashboardv1}/>
+                <Route path={"/ui"} component={Ui}/>
+                <Route path={"/contacts"} component={Contacts} />
+                <Route path={"/projects"} component={Projects} />
+                <Route path={"/tables"} component={Tables} />
+                <Route path={"/article"} component={Article} />
+                <Route component={Error404} />
+            </Switch>
+        </Main>
+    );
+}
+            </textarea>
+            <code></code>
+
+            <h2 id="seed">Seed Projects</h2>
+            <p>Mat contains two seed projects to get you started</p>
+            <h3 id="react">Mat-seed-react</h3>
+            <p>This seed project importing only React Material Design and other related components.
+                This one has the minimum set of imports to get you started on a new project.
+            </p>
+            <h3 id="bootstrap">Mat-seed-react-bootstrap</h3>
+            <p>
+                With this seed project you can use both React Material Design components and Bootstrap react
+                components shipped with react-strap.
+            </p>
+            <img src="images/react-strap-mat.png" />
+            <h2 id="contact">Contact</h2>
+            <p>Contact me:<a href="mailto:chanaka3d@gmail.com">chanaka3d@gmail.com</a> </p>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="footer">@Mat Admin Theme</div>
+</div>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="vendor/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="vendor/jquery.min.js"><\/script>')</script>
+<script src="vendor/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="vendor/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="vendor/ie10-viewport-bug-workaround.js"></script>
+<script src="js/mat.js"></script>
+</body>
+</html>

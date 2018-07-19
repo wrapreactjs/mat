@@ -1,0 +1,43 @@
+.react-data-grid-custom{
+}
+div.react-data-grid-custom .react-grid-Toolbar{
+    background: transparent;
+    border: none;
+}
+div.react-data-grid-custom .react-grid-Toolbar .btn{
+    background: transparent;
+}
+div.react-data-grid-custom .react-grid-HeaderCell{
+    background: transparent;
+    border-right: none;
+}
+div.react-data-grid-custom .react-grid-Header{
+    background: transparent;
+}
+
+div.react-data-grid-custom  .react-grid-Canvas,
+div.react-data-grid-custom  .react-grid-Grid,
+div.react-data-grid-custom  .react-grid-Main
+{
+    background: transparent;
+    outline: none;
+    border: none;
+}
+div.react-data-grid-custom  .react-grid-Canvas{
+    overflow-x: hidden;
+}
+div.react-data-grid-custom  .react-grid-Row.row-context-menu .react-grid-Cell,
+div.react-data-grid-custom  .react-grid-Row:hover .react-grid-Cell{
+    background: transparent;
+}
+div.react-data-grid-custom  .react-grid-Cell{
+    background: transparent;
+    border-right: none;
+    border-bottom:solid 1px #ccc;
+}
+div.react-data-grid-custom .react-grid-HeaderRow{
+    overflow-y: hidden;
+}
+div.react-data-grid-custom .react-grid-HeaderCell{
+    border-bottom:none;
+}
