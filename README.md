@@ -209,8 +209,37 @@ This project gives you a sample app with landing page, dashboards, authenticatio
 ### Themes
 
 Three default themes shipped with Mat admin theme (Dark, Light, Custom). The Dark and Light themes are the default themes available with React Material Design. The additional custom theme is available at `src/themes/MaterialDesignCustomTheme.js.` You can switch them from the top light bulb icon. The state of the theme is persisted to the local storage.
-
-{ palette: { text: { primary: 'rgba(178, 223, 219, 1)', secondary: 'rgba(255, 255, 255, 0.7)', disabled: 'rgba(255, 255, 255, 0.5)', hint: 'rgba(255, 255, 255, 0.5)', icon: 'rgba(255, 255, 255, 0.5)', divider: 'rgba(255, 255, 255, 0.12)', lightDivider: 'rgba(255, 255, 255, 0.075)', }, input: { bottomLine: 'rgba(255, 255, 255, 0.7)', helperText: 'rgba(255, 255, 255, 0.7)', labelText: 'rgba(255, 255, 255, 0.7)', inputText: 'rgba(255, 255, 255, 1)', disabled: 'rgba(255, 255, 255, 0.5)', }, action: { active: 'rgba(255, 255, 255, 1)', disabled: 'rgba(255, 255, 255, 0.3)', }, background: { default: 'rgba(96, 125, 139, 1)', paper: 'rgba(69, 90, 100, 1)', appBar: 'rgba(38, 50, 56, 1)', contentFrame: grey\[900\], active: 'rgba(67, 160, 71, 1)', } } }
+```json
+    palette: {
+        text: {
+            primary: 'rgba(178, 223, 219, 1)',
+            secondary: 'rgba(255, 255, 255, 0.7)',
+            disabled: 'rgba(255, 255, 255, 0.5)',
+            hint: 'rgba(255, 255, 255, 0.5)',
+            icon: 'rgba(255, 255, 255, 0.5)',
+            divider: 'rgba(255, 255, 255, 0.12)',
+            lightDivider: 'rgba(255, 255, 255, 0.075)',
+        },
+        input: {
+            bottomLine: 'rgba(255, 255, 255, 0.7)',
+            helperText: 'rgba(255, 255, 255, 0.7)',
+            labelText: 'rgba(255, 255, 255, 0.7)',
+            inputText: 'rgba(255, 255, 255, 1)',
+            disabled: 'rgba(255, 255, 255, 0.5)',
+        },
+        action: {
+            active: 'rgba(255, 255, 255, 1)',
+            disabled: 'rgba(255, 255, 255, 0.3)',
+        },
+        background: {
+            default: 'rgba(96, 125, 139, 1)',
+            paper: 'rgba(69, 90, 100, 1)',
+            appBar: 'rgba(38, 50, 56, 1)',
+            contentFrame: grey[900],
+            active: 'rgba(67, 160, 71, 1)',
+        }
+    }
+```
 
 ### Dashboard
 
@@ -237,7 +266,25 @@ Authenticating
 
 The sample app is built with authentication flow login page authenticated routes etc. All secure routes are wrapped in a higher order react component.
 
-if (Auth.getUser()) { return ( <Main setTheme={this.props.setTheme}> <Switch> <Route exact path={"/"} component={Dashboardv1}/> <Route exact path={"/home"} component={Dashboardv1}/> <Route path={"/ui"} component={Ui}/> <Route path={"/contacts"} component={Contacts} /> <Route path={"/projects"} component={Projects} /> <Route path={"/tables"} component={Tables} /> <Route path={"/article"} component={Article} /> <Route component={Error404} /> </Switch> </Main> ); }
+```javascript
+if (Auth.getUser()) {
+  return (
+      <Main setTheme={this.props.setTheme}>
+          <Switch>
+              <Route exact path={"/"} component={Dashboardv1}/>
+              <Route exact path={"/home"} component={Dashboardv1}/>
+              <Route path={"/ui"} component={Ui}/>
+              <Route path={"/contacts"} component={Contacts} />
+              <Route path={"/projects"} component={Projects} />
+              <Route path={"/tables"} component={Tables} />
+              <Route path={"/article"} component={Article} />
+              <Route component={Error404} />
+          </Switch>
+      </Main>
+  );
+} 
+        
+```
 
 Seed Projects
 -------------
@@ -251,14 +298,11 @@ This seed project importing only React Material Design and other related compone
 ### Mat-seed-react-bootstrap
 
 With this seed project you can use both React Material Design components and Bootstrap react components shipped with react-strap.
+ ![](image.png)
 
-![](images/react-strap-mat.png)
 
 Contact
 -------
 
 Contact me:[flexdamon@gmail.com](mailto:flexdamon@gmail.com)
 
-@Mat Admin Theme
-
-window.jQuery || document.write('<script src="vendor/jquery.min.js"><\\/script>')
