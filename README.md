@@ -1,30 +1,13 @@
-# mat
-     MAT - React Material Design Admin Template           /\* Show it is fixed to the top */ body { min-height: 75rem; padding-top: 0; } h3{ margin:30px 0; } .navbar-brand span{ text-indent: 20px; } pre{ background: #efefef; padding: 20px; } .footer{ padding:20px 0; color: #626262; } 
+# React Material Design Admin Dashboard (MAT )
 
- [![](images/logo.png) MAT - React Material Design Admin Template](#) Table of Content 
-
-#### Table of Content
-
-*   [About the template](#about)
-*   [Installing](#installing)
-*   [Available Scripts](#available)
-*   [Folder Structure](#folder)
-*   [Themes](#themes)
-*   [Dashboard](#dashboard)
-*   [Custom theme for victory charts](#custom)
-*   [Forms](#forms)
-*   [Authenticating](#auth)
-*   [Seed Projects](#seed)
-*   [Mat-seed-react](#react)
-*   [Mat-seed-react-bootstrap](#bootstrap)
-*   [Contact](#contact)
+![alt text](http://url/to/img.png)
 
 MAT - Responsive Admin Theme
 ============================
 
 Thank you for purchasing MAT admin theme. If you have any questions about the template, please feel free to contact me via email: [flexdamon@gmail.com](mailto:flexdamon@gmail.com). Thanks very much!
 
-![](images/baner.png)
+![alt text](http://wrapreactjs.com/mat-doc/images/baner.jpg) 
 
 **Documentation created:** 01/01/2018  
 **Latest update:** 01/01/2018  
@@ -77,8 +60,7 @@ Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will automatically reload if you make changes to the code. You will see the build errors and lint warnings in the console.
-
-![](images/console1.png)
+![alt text](http://wrapreactjs.com/mat-doc/images/console1.png)
 
 ### `npm test`
 
@@ -94,122 +76,12 @@ See the section about [deployment](https://github.com/facebookincubator/create-r
 
 About admin-sample
 ------------------
-
 This project gives you a sample app with landing page, dashboards, authentication/login, etc..
-
-### Folder Structure
-
-`./  
-├── config  
-│ ├── env.js  
-│ ├── jest  
-│ │ ├── cssTransform.js  
-│ │ └── fileTransform.js  
-│ ├── paths.js  
-│ ├── polyfills.js  
-│ ├── webpack.config.dev.js  
-│ ├── webpack.config.prod.js  
-│ ├── webpack.config.prod.txt  
-│ └── webpackDevServer.config.js  
-├── package.json  
-├── package-lock.json  
-├── Preview.png  
-├── public  
-│ ├── css  
-│ │ └── main.css  
-│ ├── favicon.png  
-│ ├── favicon.svg  
-│ ├── images  
-│ │ ├── ........  
-│ ├── index.html  
-│ ├── manifest.json  
-│ └── world-50m.json  
-├── README.md  
-├── result.html  
-├── scripts  
-│ ├── build.js  
-│ ├── start.js  
-│ └── test.js  
-└── src  
-    ├── App.css  
-    ├── App.js  
-    ├── App.test.js  
-    ├── errors  
-    │ └── Page400.js  
-    ├── index.css  
-    ├── index.js  
-    ├── layouts  
-    │ └── Main  
-    │     ├── index.js  
-    │     └── LeftMenu.js  
-    ├── logo.svg  
-    ├── MatComponents  
-    │ ├── AutoComplete.js  
-    │ ├── Labels.js  
-    │ ├── ListNumber.js  
-    │ └── MultipleSelect.js  
-    ├── pages  
-    │ ├── Article.js  
-    │ ├── Contacts  
-    │ │ ├── ContactData.js  
-    │ │ ├── Contact.js  
-    │ │ ├── ContactList.js  
-    │ │ └── index.js  
-    │ ├── Dashboardv1  
-    │ │ ├── AreaAnimation1.js  
-    │ │ ├── AreaAnimation2.js  
-    │ │ ├── CustomBarChart.js  
-    │ │ ├── CustomChart.js  
-    │ │ ├── index.js  
-    │ │ ├── MailFeed.js  
-    │ │ ├── Map.js  
-    │ │ ├── MatTheme.js  
-    │ │ └── PieChart1.js  
-    │ ├── Error404.js  
-    │ ├── Error500.js  
-    │ ├── ForgotPassword.js  
-    │ ├── Landing  
-    │ │ └── Landing.js  
-    │ ├── Login.jsx  
-    │ ├── Projects  
-    │ │ ├── HealthChart.js  
-    │ │ ├── index.js  
-    │ │ ├── ProjectData.js  
-    │ │ ├── Project.js  
-    │ │ └── ProjectList.js  
-    │ ├── Register.js  
-    │ ├── Tables  
-    │ │ ├── index.js  
-    │ │ ├── react-data-grid-custom.css  
-    │ │ ├── TableBasic.js  
-    │ │ ├── TableData.js  
-    │ │ └── TableGrid.js  
-    │ └── Ui  
-    │     ├── Buttons.js  
-    │     ├── Dialogs.js  
-    │     ├── DraggableTree  
-    │     │ └── index.js  
-    │     ├── FormAdvanced.js  
-    │     ├── FormBasic.js  
-    │     ├── FormWizard.js  
-    │     ├── index.js  
-    │     └── Sortable  
-    │         ├── Card.js  
-    │         ├── Container.js  
-    │         ├── index.js  
-    │         └── ItemTypes.js  
-    ├── themes  
-    │ └── MaterialDesignCustomTheme.js  
-    └── utils  
-        └── Message.js  
-  
-  
-`
 
 ### Themes
 
 Three default themes shipped with Mat admin theme (Dark, Light, Custom). The Dark and Light themes are the default themes available with React Material Design. The additional custom theme is available at `src/themes/MaterialDesignCustomTheme.js.` You can switch them from the top light bulb icon. The state of the theme is persisted to the local storage.
-```json
+```
     palette: {
         text: {
             primary: 'rgba(178, 223, 219, 1)',
@@ -240,6 +112,9 @@ Three default themes shipped with Mat admin theme (Dark, Light, Custom). The Dar
         }
     }
 ```
+
+### Landing Page
+![alt text](http://wrapreactjs.com/mat-doc/images/landing.jpg) 
 
 ### Dashboard
 
@@ -298,11 +173,14 @@ This seed project importing only React Material Design and other related compone
 ### Mat-seed-react-bootstrap
 
 With this seed project you can use both React Material Design components and Bootstrap react components shipped with react-strap.
- ![](image.png)
+![alt text](http://wrapreactjs.com/mat-doc/images/react-strap-mat.png) 
 
-
-Contact
--------
+## Contact
 
 Contact me:[flexdamon@gmail.com](mailto:flexdamon@gmail.com)
+
+
+![alt text](http://wrapreactjs.com/mat-doc/images/slurp2.jpeg) 
+
+
 
