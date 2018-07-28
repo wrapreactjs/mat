@@ -1,15 +1,15 @@
 # React Material Design Admin Dashboard (MAT )
 
 
-MAT - Responsive Admin Theme
-============================
 
 If you have any questions about the template, please feel free to contact me via email: [flexdamon@gmail.com](mailto:flexdamon@gmail.com). Thanks very much!
 
-![alt text](http://wrapreactjs.com/mat-doc/images/baner.jpg) 
+![alt text](http://wrapreactjs.com/mat-doc/images/baner.jpg)
 
-**Documentation created:** 01/01/2018  
-**Latest update:** 01/01/2018  
+## Demo
+
+You can find a demo here [demo here](http://wrapreactjs.com/mat/)
+
 **By:** Damon Tucker  
 **Theme Version:** 1.0.0  
 **For react bootstrap documentation:** [http://reactstrap.github.io/components/alerts/](http://reactstrap.github.io/components/alerts/)  
