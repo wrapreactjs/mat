@@ -1,11 +1,10 @@
 # React Material Design Admin Dashboard (MAT )
 
-![alt text](http://url/to/img.png)
 
 MAT - Responsive Admin Theme
 ============================
 
-Thank you for purchasing MAT admin theme. If you have any questions about the template, please feel free to contact me via email: [flexdamon@gmail.com](mailto:flexdamon@gmail.com). Thanks very much!
+If you have any questions about the template, please feel free to contact me via email: [flexdamon@gmail.com](mailto:flexdamon@gmail.com). Thanks very much!
 
 ![alt text](http://wrapreactjs.com/mat-doc/images/baner.jpg) 
 
@@ -60,6 +59,7 @@ Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will automatically reload if you make changes to the code. You will see the build errors and lint warnings in the console.
+
 ![alt text](http://wrapreactjs.com/mat-doc/images/console1.png)
 
 ### `npm test`
@@ -114,6 +114,7 @@ Three default themes shipped with Mat admin theme (Dark, Light, Custom). The Dar
 ```
 
 ### Landing Page
+
 ![alt text](http://wrapreactjs.com/mat-doc/images/landing.jpg) 
 
 ### Dashboard
@@ -173,6 +174,7 @@ This seed project importing only React Material Design and other related compone
 ### Mat-seed-react-bootstrap
 
 With this seed project you can use both React Material Design components and Bootstrap react components shipped with react-strap.
+
 ![alt text](http://wrapreactjs.com/mat-doc/images/react-strap-mat.png) 
 
 ## Contact
@@ -180,7 +182,7 @@ With this seed project you can use both React Material Design components and Boo
 Contact me:[flexdamon@gmail.com](mailto:flexdamon@gmail.com)
 
 
-![alt text](http://wrapreactjs.com/mat-doc/images/slurp2.jpeg) 
+![alt text](http://wrapreactjs.com/mat-doc/images/slurp3.jpeg) 
 
 
 
