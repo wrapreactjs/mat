@@ -2,7 +2,7 @@
 
 
 
-If you have any questions about the template, please feel free to contact me via email: [flexdamon@gmail.com](mailto:flexdamon@gmail.com). Thanks very much!
+If you have any questions about the template, please feel free to contact me via email: [admin@wrapreactjs.com](mailto:admin@wrapreactjs.com). Thanks very much!
 
 ![alt text](http://wrapreactjs.com/mat-doc/images/baner.jpg)
 
@@ -20,7 +20,7 @@ You can find a demo here [demo here](http://wrapreactjs.com/mat/)
 About the template
 ------------------
 
-MAT has a clean and minimalistic design which helps you create an awesome and powerful project. It is perfectly designed and precisely prepared. Template was built based on the latest standards and recommendations. MAT theme is powered by Twitter Bootstrap v4 and React Material Design. Please note that this documentation is dedicated to the main element of the template. With each version, I will try to develop it. But if you have any questions going beyond what is described here don't hesitate to write to me. [flexdamon@gmail.com](mailto:flexdamon@gmail.com)
+MAT has a clean and minimalistic design which helps you create an awesome and powerful project. It is perfectly designed and precisely prepared. Template was built based on the latest standards and recommendations. MAT theme is powered by Twitter Bootstrap v4 and React Material Design. Please note that this documentation is dedicated to the main element of the template. With each version, I will try to develop it. But if you have any questions going beyond what is described here don't hesitate to write to me. [admin@wrapreactjs.com](mailto:admin@wrapreactjs.com)
 
 Installing
 ----------
@@ -179,7 +179,7 @@ With this seed project you can use both React Material Design components and Boo
 
 ## Contact
 
-Contact me:[flexdamon@gmail.com](mailto:flexdamon@gmail.com)
+Contact me:[admin@wrapreactjs.com](mailto:admin@wrapreactjs.com)
 
 
 ![alt text](http://wrapreactjs.com/mat-doc/images/slurp3.jpeg) 
