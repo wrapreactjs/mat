@@ -9,8 +9,7 @@ If you have any questions about the template, please feel free to contact me via
 ## Demo
 
 You can find a demo here [demo here](http://wrapreactjs.com/mat/)
-
-**By:** Damon Tucker  
+ 
 **Theme Version:** 1.0.0  
 **For react bootstrap documentation:** [http://reactstrap.github.io/components/alerts/](http://reactstrap.github.io/components/alerts/)  
 **For react material design documentation:** [https://material-ui-1dab0.firebaseapp.com/](https://material-ui-1dab0.firebaseapp.com/)  
